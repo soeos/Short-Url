@@ -64,7 +64,15 @@ Copy the `index.js` code from this project to Cloudflare Worker.
 
 ### 以上几个配置都可以在worker -> 设置 -> 环境变量中配置，key均为对应大写，
 
-![img](readme/cfWorderEnvironment.png)
+GITHUB_REPO：https://github.com/soeos/Short-Url
+GITHUB_VERSION: @main
+DEMO_MODE: false
+DEMO_NOTICE: 本网站生成的链接随时可能失效，如需长期使用请自行搭建。
+PASSWORD: 123
+WHITE_LIST: ["orsrv.workers.dev", "soeos.x10.mx"]
+SHORTEN_TIMEOUT: 1000*60*10
+
+<!-- ![img](readme/cfWorderEnvironment.png) -->
 
 ### 点击Save and Deploy
 

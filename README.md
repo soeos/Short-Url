@@ -71,14 +71,14 @@ Copy the `index.js` code from this project to Cloudflare Worker.
 Click Save and Deploy
 
 # Demo
-https://020.name
+https://short.orsrv.workers.dev/
  
 Note: Because someone abuse this demo website, all the generated link may be deleted at any time. For long-term use, please deploy your own.
 
 注意：由于该示例服务被人滥用，用于转发诈骗网站，故所有由demo网站生成的链接随时可能失效，如需长期使用请自行搭建。
 
 ## 感谢
-项目基于[xyTom/Url-Shorten-Worker](https://github.com/xyTom/Url-Shorten-Worker)[(MIT)](https://github.com/xyTom/Url-Shorten-Worker/blob/main/LICENSE)  
+项目基于[xyTom/Url-Shorten-Worker](https://github.com/xyTom/Url-Shorten-Worker)[(MIT)](https://github.com/xyTom/Url-Shorten-Worker/blob/main/LICENSE) 和 [AoEiuV020/Url-Shorten-Worker](https://github.com/AoEiuV020/Url-Shorten-Worker)[(MIT)](https://github.com/AoEiuV020/Url-Shorten-Worker/blob/main/LICENSE)  
 1. 改进了正则匹配，
 1. 添加了超时判断处理，
 1. 添加了白名单支持，
